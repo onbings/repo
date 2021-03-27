@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /home/bha/onbings/third.wsl2/vlc-3.0.12/build/install/bin/vlc -I "dummy" "$@"
