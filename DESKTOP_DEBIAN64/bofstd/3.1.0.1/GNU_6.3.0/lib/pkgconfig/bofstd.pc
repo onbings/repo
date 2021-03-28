@@ -1,0 +1,9 @@
+libdir=/__w/bofstd/bofstd/build/Release/install/DESKTOP_DEBIAN64/bofstd/3.1.0.1/GNU_6.3.0/GNU_6.3.0/lib
+includedir=/__w/bofstd/bofstd/build/Release/install/DESKTOP_DEBIAN64/bofstd/3.1.0.1/GNU_6.3.0/include
+
+Name: bofstd
+Description: bofstd
+Version: 3.1.0
+URL: https://github.com/onbings
+Libs: -L${libdir} -lbofstd
+Cflags: -I${includedir} 
