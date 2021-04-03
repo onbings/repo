@@ -12,7 +12,7 @@ cmake_policy(VERSION 2.6...3.17)
 # Commands may need to know the format version.
 set(CMAKE_IMPORT_FILE_VERSION 1)
 #BHA
-set (BLD_PRJ vlc)
+set (BLD_PRJ vlccore)
 #set (BLD_COMPILER GNU_6.3.0)
 #bha
 # Protect against multiple inclusion, which would fail when already imported targets are added once more.
